@@ -1,13 +1,13 @@
 /* note to self: to easily situate aside so it will display correctly at top of page,
- place above article in html */ 
+ place above article in html */
+/*ND: Nice! writing your own comments!*/
 
 
-
-body { 
+body {
      background-color:#E1E2E3;
      font-size: 16px;
      line-height: 1.4;
-     font-family: 'Open Sans', sans-serif; 
+     font-family: 'Open Sans', sans-serif;
      cursor:default;
      margin:0px;
    }
@@ -16,7 +16,7 @@ img {
   max-width: 97%;
 }
 
-
+/*ND: Your spacing here is inconsistent. Try to keep your patterns the same*/
 
 
 .Relaxr {
@@ -31,7 +31,8 @@ header {
   margin:0 auto;
   font-size: 1.1em;
   font-family: 'Open Sans',sans-serif;
-  color:#FAEA39; 
+  color:#FAEA39;
+  /*ND: Where's the background image?*/
 
   }
 
@@ -61,7 +62,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color:#FAEA39; 
+  color:#FAEA39;
 }
 
 
@@ -70,7 +71,7 @@ nav li a:hover {
   color:white;
   text-transform: uppercase;
 }
-
+/*ND: Nice use of psuedoclasses. Try playing around with it more!*/
 
 
 article {
@@ -81,21 +82,21 @@ article {
 
 }
 
-article p:first-letter { 
-  float: left; 
-  color: red; 
-  font-size: 80px; 
-  line-height: 60px; 
+article p:first-letter {
+  float: left;
+  color: red;
+  font-size: 80px;
+  line-height: 60px;
   padding-top: 4px;
-  padding-right: 8px; 
-  padding-left: 3px; 
+  padding-right: 8px;
+  padding-left: 3px;
   font-family: 'Open Sans', sans-serif;
 
     }
 
 
  article h1 {
-  
+
   font-size: 2em;
   font-weight: 600;
   line-height: 1.5em;
@@ -109,7 +110,7 @@ article p {
   border-bottom: 1px solid black;
   }
 
-  
+
 
 .ReadMore {
     font-weight: 800;
@@ -118,6 +119,9 @@ article p {
     float: right;
     padding:1%;
   }
+
+  /*ND: Camelcase style is lowercase on the first like readMore. but usually the convention for HTML
+  and CSS is - for two words. like read-more*/
 
 aside {
   float:right;
@@ -195,7 +199,3 @@ footer .Relaxr {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-
